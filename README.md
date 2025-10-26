@@ -1,31 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>AiDeepFry — AI Models Hub (100)</title>
-<style>
-  :root{
-    --bg:#060607; --panel:#0f1112; --muted:#9aa1a6; --accent:#00ff66; --card:#121314;
-    --glass: rgba(255,255,255,0.03);
-  }
-  html,body{height:100%;margin:0;background:linear-gradient(180deg,#050506 0%, #0b0b0c 100%);color:#e6eef1;font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
-  header{display:flex;align-items:center;justify-content:space-between;padding:20px 28px;border-bottom:1px solid rgba(255,255,255,0.03);background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);}
-  header h1{margin:0;font-size:20px;color:var(--accent);letter-spacing:0.6px;}
-  header p{margin:0;color:var(--muted);font-size:13px;}
-  .wrap{max-width:1280px;margin:28px auto;padding:0 20px;}
-  .filters{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:18px}
-  .pill{background:var(--glass);border:1px solid rgba(255,255,255,0.02);padding:8px 12px;border-radius:999px;color:var(--muted);font-size:13px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
-  .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border:1px solid rgba(255,255,255,0.03);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.6);transition:transform .16s,box-shadow .16s}
-  .card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(0,255,102,0.06);border-color:rgba(0,255,102,0.06)}
-  .card h3{margin:0 0 6px 0;color:var(--accent);font-size:16px}
-  .card p{margin:0;color:var(--muted);font-size:13px;line-height:1.35}
-  .card .meta{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
-  .btn{background:var(--accent);color:#061010;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:600;font-size:13px}
-  footer{padding:26px;text-align:center;color:var(--muted);font-size:13px;margin-top:28px;border-top:1px solid rgba(255,255,255,0.02)}
-  .cat{font-size:12px;color:var(--muted);margin-bottom:8px}
-  /* small screens */
+
   @media (max-width:520px){header{flex-direction:column;align-items:flex-start;gap:8px} .wrap{padding:0 12px}}
 </style>
 </head>
